@@ -6,14 +6,13 @@
 import thunk from "redux-thunk";
 import configureMockStore from 'redux-mock-store';
 import fetchMock from "fetch-mock";
-import { createActions } from "../lib/createActions";
-import { createAsyncActions } from "../lib/createAsyncActions";
 import initialState from "../lib/initialState";
 import { Request } from "node-fetch";
+import utility from "../index";
 
 
-const act = createActions( "Products" );
-const actAsy = createAsyncActions( "Products" );
+const act = utility.createActions( "Products" );
+const actAsy = utility.createAsyncActions( "Products" );
 const middleware = [ thunk ];
 const mockStore = configureMockStore( middleware );
 

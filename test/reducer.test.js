@@ -1,8 +1,7 @@
-import { createReducer } from "../lib/createReducer";
-import { createActions } from "../lib/createActions";
+import utility from "../index";
 
-const pr = createReducer( "Products" );
-const ac = createActions( "Products" );
+const pr = utility.createReducer( "Products" );
+const ac = utility.createActions( "Products" );
 
 describe( 'createReducer test', () => {
     it( 'tests reducer undefined action', () => {
