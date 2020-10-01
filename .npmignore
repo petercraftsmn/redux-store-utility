@@ -194,3 +194,4 @@ fabric.properties
 /.gitignore
 /babel.config.js
 /jest.config.js
+/.idea/
