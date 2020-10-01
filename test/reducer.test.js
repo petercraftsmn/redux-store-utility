@@ -1,7 +1,7 @@
-import utility from "../index";
+import reduxStoreUtility from "../index";
 
-const pr = utility.createReducer( "Products" );
-const ac = utility.createActions( "Products" );
+const pr = reduxStoreUtility.createReducer( "Products" );
+const ac = reduxStoreUtility.createActions( "Products" );
 
 describe( 'createReducer test', () => {
     it( 'tests reducer undefined action', () => {

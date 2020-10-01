@@ -1,1 +1,1 @@
-# redux-store-utility
+# redux-store-reduxStoreUtility

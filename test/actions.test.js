@@ -8,11 +8,11 @@ import configureMockStore from 'redux-mock-store';
 import fetchMock from "fetch-mock";
 import initialState from "../lib/initialState";
 import { Request } from "node-fetch";
-import utility from "../index";
+import reduxStoreUtility from "../index";
 
 
-const act = utility.createActions( "Products" );
-const actAsy = utility.createAsyncActions( "Products" );
+const act = reduxStoreUtility.createActions( "Products" );
+const actAsy = reduxStoreUtility.createAsyncActions( "Products" );
 const middleware = [ thunk ];
 const mockStore = configureMockStore( middleware );
 
