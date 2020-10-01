@@ -6,7 +6,8 @@
 import thunk from "redux-thunk";
 import configureMockStore from 'redux-mock-store';
 import fetchMock from "fetch-mock";
-import { createActions, createAsyncActions } from "../lib/createActions";
+import { createActions } from "../lib/createActions";
+import { createAsyncActions } from "../lib/createAsyncActions";
 import initialState from "../lib/initialState";
 import { Request } from "node-fetch";
 
