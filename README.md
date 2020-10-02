@@ -11,7 +11,8 @@ A utility to simplify creation of Redux store by creating
 npm install redux-store-utility
 ```
 ## Documentation
-####Create Redux store for "PRODUCTS" as follows
+
+### Create Redux store for "PRODUCTS" as follows
 
 store.js
 ```js
@@ -54,7 +55,7 @@ initialState.json
   }
 }
 ```
-####To get synchronous actions
+### To get synchronous actions
 ```js
 import reduxStoreUtility from "redux-store-utility";
 
@@ -67,7 +68,7 @@ It will create following actions
 - product Error
 
 
-####For fetching (async action) from api and putting in "PRODUCTS" store use as follows
+### For fetching (async action) from api and putting in "PRODUCTS" store use as follows
 ```js
 import reduxStoreUtility from "redux-store-utility";
 
