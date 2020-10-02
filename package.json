@@ -17,7 +17,7 @@
     "reducer"
   ],
   "author": "Peter Craftsmn",
-  "license": "GNU GENERAL PUBLIC LICENSE",
+  "license": "GNU",
   "bugs": {
     "url": "https://github.com/petercraftsmn/redux-store-utility/issues"
   },
